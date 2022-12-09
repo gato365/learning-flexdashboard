@@ -8,9 +8,9 @@
 
 
 
-<title>Single Column (Fill)</title>
+<title>Single Column (Scrolling)</title>
 
-<meta property="og:title" content="Single Column (Fill)" />
+<meta property="og:title" content="Single Column (Scrolling)" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -204,14 +204,6 @@ display: flex;
 .sbframe:not(.active) {
 display: none;
 }
-@media only screen and (min-width: 768px) {
-html, body {
-height: 100%;
-}
-#dashboard-container {
-height: 100%;
-}
-}
 </style>
 
 
@@ -228,7 +220,7 @@ height: 100%;
   
 </span>
 <span class="navbar-brand">
-  Single Column (Fill)
+  Single Column (Scrolling)
   <span class="navbar-author">
         </span>
 </span>
@@ -1939,9 +1931,18 @@ window.FlexDashboardComponents.push({
 
 <div id="chart-1" class="section level3">
 <h3>Chart 1</h3>
+<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+
+</div>
 </div>
 <div id="chart-2" class="section level3">
 <h3>Chart 2</h3>
+<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+
+</div>
+</div>
+<div id="chart-3" class="section level3">
+<h3>Chart 3</h3>
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
@@ -1966,7 +1967,7 @@ $(document).ready(function() {
 <script type="text/javascript">
 $(document).ready(function () {
   FlexDashboard.init({
-    fillPage: true,
+    fillPage: false,
     orientation: "columns",
     storyboard: false,
     defaultFigWidth: 576,
