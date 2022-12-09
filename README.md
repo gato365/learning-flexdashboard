@@ -1,9 +1,9 @@
-# learning-flexdashboard
 
-## Learning Concepts
-### A) Flexdashboard Layouts
 
-1. What are symbols (symbol phrase)? 2. What do the symbols (symbol phrase) mean?
+# Learning flexdashboard Concepts
+## A) Flexdashboard Layouts
+
+### 1. What are symbols (symbol phrase)? 2. What do the symbols (symbol phrase) mean?
 
 
 '###' 
@@ -20,12 +20,32 @@
 
 <hr />
 
+'Row' <br>
+'-------------------------------------'
+
+**Meaning:** Creates a row 
+<hr />
 
 
-### B) YAML
+'-------------------------------------' <br>
+'### Chart 1'
+
+**Meaning:** define columns, with individual charts stacked vertically 
+within each column
 
 
-### C) Connection to Various Themes
+### 3. Explain the default action 
+
+'flexdashboard::flex_dashboard'
+
+**Meaning:**
 
 
-### D) Connection to CSS
+
+## B) YAML
+
+
+## C) Connection to Various Themes
+
+
+## D) Connection to CSS

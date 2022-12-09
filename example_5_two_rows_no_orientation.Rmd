@@ -1,0 +1,28 @@
+---
+title: "Multiple Columns"
+output: flexdashboard::flex_dashboard
+---
+    
+Row {data-width=800}
+-------------------------------------
+    
+### Chart 1
+    
+```{r}
+
+```
+   
+Row {data-width=200}
+-------------------------------------
+   
+### Chart 2
+
+```{r}
+
+```   
+ 
+### Chart 3
+    
+```{r}
+
+```
