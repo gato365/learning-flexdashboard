@@ -3,8 +3,20 @@
 ## Learning Concepts
 ### A) Flexdashboard Layouts
 
-1. What are symbols?
-2. What do the symbols mean?
+1. What are symbols (symbol phrase)? 2. What do the symbols (symbol phrase) mean?
+
+'###' 
+
+**Meaning:** Provides a section (whether as row or column, depends on orientation)
+
+
+
+'Column {data-width=400}' <br>
+'-------------------------------------'
+
+**Meaning:** Creates a column and specifies the width
+
+
 
 ### B) YAML
 
